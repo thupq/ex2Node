@@ -2,10 +2,9 @@
   "name": "ex2node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,9 +22,12 @@
   },
   "homepage": "https://github.com/thupq/ex2Node#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "pug": "^3.0.0"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.6"
   }
 }
